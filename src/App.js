@@ -156,7 +156,7 @@ function App() {
         </div>
       ) : null}
 
-      {result === "lost" ? (
+      {result === "lose" ? (
         <div className="lottie">
           <Lottie
             animationData={loseAnimation}
