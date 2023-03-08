@@ -141,6 +141,7 @@ function App() {
             autoPlay
             speed={1}
             loop={false}
+            style={{ width: 300 }}
           />
         </div>
       ) : null}
@@ -163,6 +164,9 @@ function App() {
             autoPlay
             speed={1}
             loop={false}
+            style={{
+              width: 150
+            }}
           />
         </div>
       ) : null}
